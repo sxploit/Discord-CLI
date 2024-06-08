@@ -17,8 +17,7 @@ def monitor_msgs(token, channelid, last_message=None):
     if last_message:
         params['after'] = last_message
         
-    r = requests.get(api, headers=headers, params=params)
-    
+    r = requests.get(api, headers=headers, params=params)    
     if r.status_code == 200:
         msgs = r.json()
         if msgs:
