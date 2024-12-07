@@ -22,7 +22,7 @@ def cli_msg(token, channelid, msg):
         print(f"Error while sending message: {msg}")
         
 if __name__ == "__main__":
-    print("Discord CLI by github.com/r0ck450\n")
+    print("Discord CLI by github.com/sxploit\n")
     while True:
         msg = input("> ")
         cli_msg(token, channelid, msg)
