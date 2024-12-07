@@ -28,7 +28,7 @@ def monitor_msgs(token, channelid, last_message=None):
 
 if __name__ == "__main__":
     last_messages = None
-    print("Discord CLI by github.com/r0ck450\n")
+    print("Discord CLI by github.com/sxploit\n")
     while True:
         msg = monitor_msgs(token, channelid, last_messages)
         if msg:
